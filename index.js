@@ -47,8 +47,8 @@ const random = Math.floor(Math.random() * months.length);
 // }
 
 function kostka3(){
-    const random1 = Math.floor(Math.random() * months.length);
-    const random2 = Math.floor(Math.random() * months.length);
+    const random1 = Math.floor(Math.random() * 6) +1;
+    const random2 = Math.floor(Math.random() * 6) +1;
     if (random1 == 1){
     document.querySelector(".img1").setAttribute("src", "images/dice1.png")
     }
