@@ -88,7 +88,7 @@ function kostka3(){
     }
 
     if(random1 == random2){
-        document.querySelector("h2").innerText = "🚩 Remis"
+        document.querySelector("h2").innerText = "🚩 Remis 🚩"
         document.querySelector("h2").style.visibility = "visible"
     }
     else if(random1 > random2){
@@ -96,7 +96,7 @@ function kostka3(){
         document.querySelector("h2").style.visibility = "visible"
     }
     else if(random2 > random1){
-        document.querySelector("h2").innerText = "🚩 Wygrał Player 2"
+        document.querySelector("h2").innerText = "Wygrał Player 2 🚩"
         document.querySelector("h2").style.visibility = "visible"
     }
 }
